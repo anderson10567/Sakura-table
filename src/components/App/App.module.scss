@@ -1,0 +1,49 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  overflow-y: scroll; 
+}
+
+
+.app-container {
+  max-width: 100%;
+  height: 100%;
+  padding: 1rem;
+  background-color: #eeeaea;
+  font-family: "Inter", sans-serif;
+   margin: 10px 15px 20px;
+  
+}
+
+.app-title {
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #111827;
+  text-align: center;
+}
+
+.search-filter-wrapper {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 5px;
+  margin: 0 15px 20px;
+
+  .search-input {
+    flex: 1; 
+    max-width: 400px;
+  }
+
+  .department-select {
+    flex-shrink: 0; 
+  }
+}
+
+
+
+
+
