@@ -8,6 +8,11 @@ export default defineConfig({
   base: '/Sakura-table/', 
 
   plugins: [react()],
+    build: {
+    rollupOptions: {
+      input: '/public/index.html',  
+    },
+  },
    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
    // @ts-ignore
   test: {
